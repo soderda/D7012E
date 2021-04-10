@@ -9,9 +9,7 @@ In this lab the assignment was to write a program in **Haskell** that, given an 
 and a list containing n integers, computes and prints a *smallest* *k* set of *l* defined: <br>
 > A smallest *k* set of *l* is a set {*l*<sub>*1*</sub>,*l*<sub>*2*</sub>,...,*l*<sub>*k*</sub>} of k different non-empty sublists of *l* such that <br>
 for all other sets {*l'*<sub>*1*</sub>,*l'*<sub>*2*</sub>,...,*l'*<sub>*k*</sub>} of k different non-empty sublists of *l*, <br>
-```math
-\sum_{i=!}^k\sigma(l_i)\leq\sum_{i=1}^k\sigma(l'_i).
-```
+<img src="https://latex.codecogs.com/gif.latex?\sum_{i=!}^k\sigma(l_i)\leq\sum_{i=1}^k\sigma(l'_i)." title="\sum_{i=!}^k\sigma(l_i)\leq\sum_{i=1}^k\sigma(l'_i)." />
 
 
 Run the program with *smallestKSets*, as following example:
