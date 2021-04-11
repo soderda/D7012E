@@ -17,7 +17,7 @@ Run the program with *smallestKSets*, as following example:
 ghci> smallestKSets [-1,2,-3,4,-5] 3
 Entire list: [-1,2,-3,4,-5]
 
-size    i       j       size
+size    i       j       sublist
 -5      5       5       [-5]
 -4      3       5       [-3,4,-5]     
 -3      1       5       [-1,2,-3,4,-5]
