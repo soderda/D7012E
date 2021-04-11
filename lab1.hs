@@ -36,7 +36,7 @@ smallestKSets lst k
 -- Not necessary at all for the lab, but thought it would be fun to do.
 -- entireListToString 
 entireListToString :: [Int] -> String
-entireListToString lst = "Entire list: [" ++ listToString lst ++ "]\n\nsize\ti\tj\tsize\n"
+entireListToString lst = "Entire list: [" ++ listToString lst ++ "]\n\nsize\ti\tj\tsublist\n"
 
 -- listToString turns an list of integers and makes it into a string
 -- with a ',' as a delimitor
